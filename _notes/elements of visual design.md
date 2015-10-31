@@ -85,7 +85,7 @@ is all of the different states in which it could be. These kinds of apps
 are never static. They tell a story. Every interaction has a beginning,
 a middle, and an end. What does it look like the very first time a user
 opens it up and there is no data in it yet? What will it look like in a
-couple of years when there are hundreds of thousands of records?
+couple of years time when there are hundreds of thousands of records?
 What happens if something goes wrong and we need to display an
 error message?
 
@@ -97,7 +97,7 @@ and fresh, or is it corporate and serious?
 Thinking about all of these things will help you to design for the bigger
 experience, and mean that your apps are more flexible and more enjoyable
 to use. It will also mean that your designs will feel more consistent
-which is important.
+which is extreamly important.
 
 But always remember to keep referring back to your goals.
 
@@ -114,7 +114,7 @@ different sizes and weights of fonts, or through different tones of colour.
 
 Focus: (what do we want to show or emphasise?)
 This helps us to get our point across and says "I want you to do this".
-It can be done with a mixture of white space and a big heading or by
+It could be done with a mixture of white space and a big heading, or by
 emphasising a button.
 
 Flow: (getting the user to their goal)
@@ -128,7 +128,7 @@ these key concepts.
 
 ## Visual Design techniques — Tactics
 
-
+So what techniques can we use?
 
 ### Typography
 hierarchy
