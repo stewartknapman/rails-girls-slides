@@ -101,20 +101,34 @@ which is important.
 
 But always remember to keep referring back to your goals.
 
+## The key concepts of Visual Design — Strategy
+
+Ok, so now we know what and why, lets talk about how to use Visual Design.
+There are several key principals that we can use that will help us to
+achieve our goals and to help our users to achieve theirs.
+
+Hierarchy: (what is important?)
+This helps us to establish and explain to the user what is important.
+And it is one of the ways we can say "go this way". It can be done by using
+different sizes and weights of fonts, or through different tones of colour.
+
+Focus: (what do we want to show or emphasise?)
+This helps us to get our point across and says "I want you to do this".
+It can be done with a mixture of white space and a big heading or by
+emphasising a button.
+
+Flow: (getting the user to their goal)
+Flow is more of an over-arching concept and it is concerned with the steps
+it takes to get the user to achieve their goal. This might be the way a
+series of form fields are laid out, or by presenting something in a popover
+so as to not remove the user from the context of the current page.
+
+When used together, our techniques of Visual Design help us to enforce
+these key concepts.
+
+## Visual Design techniques — Tactics
 
 
-
-
-
-
-### what are some of the things that we are trying to achieve?
-[All of the 'hows' help to inform and enforce these key concepts:
-- hierarchy - what is important?
-- focus - what do we want to show or emphasise?
-- meaning - what are we trying to say?
-- flow - getting the user to their goal]
-
-## How?
 
 ### Typography
 hierarchy
@@ -172,6 +186,8 @@ feedback - we have acted on something and it has responded
 putting it all together
 fluid/responsive design
 everything is an object - design modules that can be pieced together like blocks
+
+
 
 ## Homework
 Reading:
