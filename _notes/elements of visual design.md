@@ -25,9 +25,11 @@ always refer back to your goals
 states - telling a story: beginning, middle and end; empty & full; incomplete & finished.
 
 ### what are some of the things that we are trying to achieve?
-key concepts:
-hierarchy - what is important
-flow - getting the user to their goal
+All of the 'hows' help to inform and enforce these key concepts:
+- hierarchy - what is important?
+- focus - what do we want to show or emphasise?
+- meaning - what are we trying to say?
+- flow - getting the user to their goal
 
 ## How?
 
@@ -41,12 +43,33 @@ highlight and direction
 positive/negative - success/error
 feeling and texture
 
-### Contrast
-readability
-usability
+### Size
+enforce hierarchy and flow
+create realistic hit areas for actionable items
+making things visible - even making something too big can make it so it's not visible.
+
+### Contrast & Balance
+the difference between two things
+help with readability & usability
+
+contrast in colour
+contrast in size
+contrast in typography (serif vs sans-serif; italic vs book; light vs bold)
+
+test the extremes and then dial it in.
 
 ### Layout
 spacing and grids
+white space - breathing room
+breaking the grid
+
+### Imagery
+use imagery to help enforce feeling, mood and emotions
+
+icons
+illustrations
+photos
+data visualisation
 
 ### Depth
 can help create distinction between areas and enforce hierarchy and flow
@@ -60,6 +83,7 @@ directing the eye:
 - reading left to right; top to bottom (in western cultures)
 - forward & back; left & right.
 physical motion - animations. keep it smooth; keep it subtle; keep it quick.
+feedback - we have acted on something and it has responded
 
 ### Composition
 putting it all together
