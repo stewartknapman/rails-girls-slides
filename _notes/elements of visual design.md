@@ -134,6 +134,7 @@ So what techniques can we use?
 hierarchy
 limit fonts use 1–2, if you really really have to use three, but never any more!
 Use weight and styles to create texture
+line-height and line-length
 
 ### Colour
 highlight and direction
