@@ -1,35 +1,118 @@
 # Elements of Visual Design
 
-Visual Design is how we create 
+## Introduction
 
-## Why?
+Hello. I am Stewart Knapman. I am a designer and front-end developer.
+I work for a small, but mighty, design studio in Nelson called Lucid.
+We specialise in building websites for small to medium sized businesses,
+and mainly work with an e-commerce platform called Shopify.
+Which, by the way, is built on top of Ruby on Rails.
+It is also just one of the platforms that we use on a daily basis that
+is either built on, or influenced by Ruby and the Rails framework.
 
-consistency
-usability
-can create a delightful and enjoyable experience when done correctly - feeling and emotion
-it _will_ create a bad experience when not done correctly - have you ever been really frustrated?
-helps direct the user to achieve their goal
+So, I'm going to take you through a little bit of about what
+Visual Design is; _why_ we need it; and then finish up with some rules
+or guidelines on how we can use it in our apps to create
+great experiences.
 
-design should be invisible; it shows you the direction and then gets out of the way.
-good design is a conversation between both parties (in this case yourself and the user)
+## What is Visual Design?
 
-## What?
+So what is Visual Design, and why do we care?
+Visual Design is the process that we take when we create the interfaces
+that people will be using when they interact with our apps.
 
-### what are some of the things that we need to think about when designing?
-goals (of the user and of the application)
-the users needs
-the users environments
-scope and technology constraints
-all browsers are different
-always refer back to your goals
-states - telling a story: beginning, middle and end; empty & full; incomplete & finished.
+Visual Design is the framework that allows us to create meaningful
+interactions, and to help us tell stories that connect us with the
+people that use our apps.
+It helps us to direct and inform people, and ultimately it helps us to
+help them to achieve their goals.
+
+When Visual Design is executed correctly we can create delightful and
+enjoyable experiences which can enrich peoples lives.
+
+But, when Visual Design is not executed correctly, or even at all, it
+can have catastrophic consequences.
+
+## Why do we need Visual Design?
+
+You have probably all experienced this at some point. You are trying to
+achieve something, probably on a website. Maybe it's a tool for work or
+school or another kind of site. Maybe it looks like this ->
+[deathtobullshit.com]
+And you either can't find what you are looking for, or it is not clear
+what you are meant to do. Or maybe there are too many conflicting things
+all fighting for your attention, and you are getting frustrated.
+So in the end you just give up and leave.
+This is bad design.
+
+The thing with good design is that it is invisible. Most of the time you
+don't even know that it is there. It shows you the direction and then it
+gets out of the way.
+
+Good design is considered.
+
+## What are some of the things that we need to think about when designing?
+
+So if good design is considered, then what are some of the things that we
+need to be thinking about when we are designing for our apps?
+
+First we need to be thinking about the goals. The goals of our apps and
+the goals of our users. Who are they and what are they trying to achieve?
+What do we want them to achieve?
+What does a successful interaction look like?
+
+What does the users environment look like? Now we have mobile devices,
+tablets, laptops, desktops, watches, game consoles, TV's, and cars! All
+of these things can be used to access the internet, and therefore change
+the context of how our apps might be used.
+
+Where will our users be, and what will they be doing when using this app?
+Will they be in the middle of town hurriedly trying to get from point A
+to point B? Will they be sat in a cafe with friends? Will they be using
+this app for work on a big 30-something inch iMac? Or will they be sat at
+home in front of the TV with their family?
+
+While we can't always tell the circumstances of how or when our apps will
+be used, it is still good to be mindful of the possibilities.
+
+We also need to consider the technical constraints. Can we use that fancy
+new animation technique? Or do we have to still support people that are
+running IE6, 7 & 8? These kinds of decisions will help to inform us of
+what our designs can and can't do.
+
+Another important thing we need to think about when designing for our apps
+is all of the different states in which it could be. These kinds of apps
+are never static. They tell a story. Every interaction has a beginning,
+a middle, and an end. What does it look like the very first time a user
+opens it up and there is no data in it yet? What will it look like in a
+couple of years when there are hundreds of thousands of records?
+What happens if something goes wrong and we need to display an
+error message?
+
+The voice and tone of your designs is also very important to keep in mind.
+These can be literal things like how messages are worded when presented to
+the user, or more abstract like the overall feel of the design. Is it fun
+and fresh, or is it corporate and serious?
+
+Thinking about all of these things will help you to design for the bigger
+experience, and mean that your apps are more flexible and more enjoyable
+to use. It will also mean that your designs will feel more consistent
+which is important.
+
+But always remember to keep referring back to your goals.
+
+
+
+
+
+
 
 ### what are some of the things that we are trying to achieve?
-All of the 'hows' help to inform and enforce these key concepts:
+[All of the 'hows' help to inform and enforce these key concepts:
 - hierarchy - what is important?
 - focus - what do we want to show or emphasise?
 - meaning - what are we trying to say?
-- flow - getting the user to their goal
+- flow - getting the user to their goal]
 
 ## How?
 
