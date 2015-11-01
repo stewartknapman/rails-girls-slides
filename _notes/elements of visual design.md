@@ -163,12 +163,12 @@ But here are a couple of rules that you can use to help you get started:
    Or I might pick two fonts that come from the same time, or area, or
    two that come from the same type designer.
    
-Ok, so taking a step back for a second. I mentioned the words `serif` and
-`sans-serif`. Who knows what these mean?
-Ok so, for those that don't, a serif is the little foot that appears at the
-end of a character.
-And 'Sans' means without. So a sans-serif typeface is one without the little
-flared feet.
+Ok, so taking a step back for a second. I mentioned the words `serif`
+and `sans-serif`. Who knows what these mean?
+Ok so, for those that don't, a serif is the little foot that appears at
+the end of a character.
+And 'Sans' means without. So a sans-serif typeface is one without the
+little flared feet.
 
 Ok, rule #3
 
@@ -224,41 +224,78 @@ reflected through it. It is also a really subtle way of adding a little bit
 of difference to your designs.
 
 ### Size
-enforce hierarchy and flow
-create realistic hit areas for actionable items
-making things visible - even making something too big can make it so it's not visible.
+
+Using different sizes of elements allows us to enforce hierarchy and to create 
+a flow between different parts of our design. As we saw with typography
+something that is bigger can create a sense of being more important. This allows
+us to direct users to the parts of our applications that we want them to focus on.
+
+Making something too big can actually be the same as making some too small, when
+it expands from our view it is no longer visible. This can be used to interesting
+effect to create a texture that blends into the background.
+
+Size is also very important when it comes to actionable items in your deigns.
+Make sure you have enough room for your users to click on a link or a button.
+Remember that with touch devices your users may be using their thumb or fingers
+to press a button, and this requires more room than a standard mouse cursor.
+If you haven't allowed for enough room to tap on something then you run the risk
+of people tapping on the wrong things, which can cause frustration.
 
 ### Contrast & Balance
-the difference between two things
-help with readability & usability
 
-contrast in colour
-contrast in size
-contrast in typography (serif vs sans-serif; italic vs book; light vs bold)
+Contrast is how we show the difference between things.
+You can have contrast in colour - Black & White; Darks & Lights.
+You can have contrast in size - Big vs Small.
+And you can have contrast in Typography - Serif vs Sans-serif; Italic vs Book;
+Light and expanded vs Bold and condensed.
 
-test the extremes and then dial it in.
+Too little contrast can make it hard for people to differentiate between things.
+Like if your text and background colours are too close, or if the size of your
+headings is the same as your body text.
+
+Too much contrast can make your designs feel inconsistent and disjointed.
+The best way to deal with it is to test the extremes to see how they look and
+then to dial it in from there, until you have worked out a nice balance.
 
 ### Layout
-spacing and grids
-white space - breathing room
-breaking the grid
+
+Layout is when we start bringing order to our content and establishing the flow.
+
+In design, it is always a good idea to base your content on a grid. Grids allow
+us to create a rhythm between elements. It helps us to line things up and it
+gives us control.
+
+Once you know how to work with a grid, you can try your hand at breaking it.
+This is a great technique for creating focus and emphasising an element.
+But use this sparingly and with caution. If you do it to much, then you may
+as well not be using a grid at all.
+
+Spacing is also an important part of layout. Using negative or white space
+around your elements allows them to breath. If things are to close together
+then they start to look cluttered. Contrary to popular belief white space
+is actually something that you can have a lot of. Using lots of white space
+can have an effect of making your designs look expensive, like you have so
+much money to throw away on empty areas, rather than spending it all on
+trying to cram in as much content as possible.
 
 ### Imagery
-use imagery to help enforce feeling, mood and emotions
 
-icons
-illustrations
-photos
-data visualisation
+Using imagery in your designs is an effective way to help enforce feeling,
+mood and emotions. It is also a way that you can remove written content,
+that might take up too much space in your designs while still delivering
+your message.
 
-### Depth
-can help create distinction between areas and enforce hierarchy and flow
-creates interest
-keep it subtle
-flat design still has depth
-overlaying objects (foreground/middle-ground/background?)
+Icons can be extremely helpful when trying to convey a message, especially
+if your users speak different languages.
+
+Other types of imagery you can use are illustrations, photos and data
+visualisation like graphs or maps. These all help to create a rich experience
+for your users.
 
 ### Motion
+
+
+
 directing the eye:
 - reading left to right; top to bottom (in western cultures)
 - forward & back; left & right.
@@ -268,6 +305,7 @@ feedback - we have acted on something and it has responded
 ### Composition
 putting it all together
 fluid/responsive design
+the fold
 everything is an object - design modules that can be pieced together like blocks
 
 
@@ -286,3 +324,25 @@ Actually read all the ABA books
 ## Thanks
 @stewartknapman
 Lucid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+### Depth
+can help create distinction between areas and enforce hierarchy and flow
+creates interest
+keep it subtle
+flat design still has depth
+overlaying objects (foreground/middle-ground/background?)
+*/
