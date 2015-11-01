@@ -294,7 +294,7 @@ for your users.
 
 ### Motion
 
-
+Motion helps us to direct the eye. We can use it to 
 
 directing the eye:
 - reading left to right; top to bottom (in western cultures)
