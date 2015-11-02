@@ -17,8 +17,8 @@ great experiences.
 
 ## What is Visual Design?
 
-So what is Visual Design, and why do we care?
-Visual Design is the process that we take when we create the interfaces
+So what is Visual Design, and why do we even care?
+Well, Visual Design is the process that we take when we create the interfaces
 that people will be using when they interact with our apps.
 
 Visual Design is the framework that allows us to create meaningful
@@ -88,7 +88,7 @@ a middle, and an end. So what does it look like the very first time a user
 opens it up and there is no data in it yet? What will it look like in a
 couple of years time when there are hundreds of thousands of records?
 What happens if something goes wrong and we need to display an
-error message?
+error message? These are just some of the things you need to keep in mind.
 
 The voice and tone of your designs is also very important to keep in mind.
 These can be literal things like how messages are worded when presented to
@@ -100,7 +100,7 @@ experience, and mean that your apps are more flexible and more enjoyable
 to use. It will also mean that your designs will feel more consistent
 which is extremely important.
 
-But always remember to keep referring back to your goals.
+But always remember to keep referring back to your original goals.
 
 ## The key concepts of Visual Design — Strategy
 
@@ -161,19 +161,19 @@ But here are a couple of rules that you can use to help you get started:
    to the body font, or with a relationship to it. So if my body has a
    sans-serif font then I'll go with a serif for the heading.
    Or I might pick two fonts that come from the same time, or area, or
-   two that come from the same type designer.
+   that come from the same type designer.
    
 Ok, so taking a step back for a second. I mentioned the words `serif`
 and `sans-serif`. Who knows what these mean?
 Ok so, for those that don't, a serif is the little foot that appears at
 the end of a character.
 And 'Sans' means without. So a sans-serif typeface is one without the
-little flared feet.
+little flared foot thingy.
 
 Ok, rule #3
 
 3. If you really, REALLY have too, you can pick a third font choice, but
-   *never use more than three fonts. Ever*. Seriously, don't do this. It
+   *never use more than three fonts. Ever!*. Seriously, don't do it. It
    will make your designs look like a scrapbook or a ransom note, and that's
    all-well-and-good for scrapbooks and ransom notes, but not for our apps.
    It makes things overwhelming and they just don't look good.
@@ -185,7 +185,7 @@ Ok, rule #3
    important thing, but it is not as important as our previous thing.
    Generally speaking to work out these sizes I'll usually times my base
    font size by two or three and work back from there. So if my body font
-   is 16px high, my heading one will be 32px and my second level heading
+   is 16px high, my heading will be 32px and my second level heading
    would be 28px. 
 
 As you can see there is a lot involved in just working out your typography.
@@ -195,7 +195,7 @@ Santa Maria's 'On Web Typography'.
 
 ### Colour
 
-Colour. Ok I promise these other sections won't be as long.
+Colour. Ok I promise these other sections won't be as long as that last one.
 
 Colour allows us to highlight items we want emphasised, and it is a great
 way of creating feeling and mood in our design.
@@ -221,7 +221,7 @@ and white, instead dropping it back a notch and then shifting the hue slightly
 to make it either warmer or cooler. This is because in real life there is no
 such thing as truly black or white, it all has some kind of shade or tone
 reflected through it. It is also a really subtle way of adding a little bit
-of difference to your designs.
+of difference to your designs, making them look less boring.
 
 ### Size
 
@@ -231,8 +231,8 @@ something that is bigger can create a sense of being more important. This allows
 us to direct users to the parts of our applications that we want them to focus on.
 
 Making something too big can actually be the same as making some too small, when
-it expands from our view it is no longer visible. This can be used to interesting
-effect to create a texture that blends into the background.
+it expands from our view it is no longer visible. This can be used to create an
+interesting effect where we make a texture that blends into the background.
 
 Size is also very important when it comes to actionable items in your deigns.
 Make sure you have enough room for your users to click on a link or a button.
@@ -276,39 +276,83 @@ then they start to look cluttered. Contrary to popular belief white space
 is actually something that you can have a lot of. Using lots of white space
 can have an effect of making your designs look expensive, like you have so
 much money to throw away on empty areas, rather than spending it all on
-trying to cram in as much content as possible.
+trying to cram as much content in as possible.
 
 ### Imagery
 
-Using imagery in your designs is an effective way to help enforce feeling,
-mood and emotions. It is also a way that you can remove written content,
-that might take up too much space in your designs while still delivering
-your message.
+Using imagery in your designs is an effective way to help re-enforce
+feeling, mood and emotions. It is also a good way to remove written
+content, that might take up too much space in your designs while still
+delivering your message.
 
 Icons can be extremely helpful when trying to convey a message, especially
 if your users speak different languages.
 
 Other types of imagery you can use are illustrations, photos and data
 visualisation like graphs or maps. These all help to create a rich experience
-for your users.
-
-### Motion
-
-Motion helps us to direct the eye. We can use it to 
-
-directing the eye:
-- reading left to right; top to bottom (in western cultures)
-- forward & back; left & right.
-physical motion - animations. keep it smooth; keep it subtle; keep it quick.
-feedback - we have acted on something and it has responded
+for your users and to create interest.
 
 ### Composition
-putting it all together
-fluid/responsive design
-the fold
-everything is an object - design modules that can be pieced together like blocks
 
+Ok, last one.
+Composition, lets start pulling it all together.
 
+So by now we should have all of these beautifully designed elements. All
+of our images, forms and buttons look nice; our type is clear and readable;
+and we have a clear idea of the structure and feeling of things.
+
+So one thing I have been trying to do more recently, and I know other
+designers are talking more and more about this concept, is when designing for
+the web try to approach the elements as modules. Designing each part or item
+as an object that we can then piece together and reuse like lego blocks. And 
+you'll see why in a minute.
+
+Lets go back to our phones and tablets, our TV's and watches and whatnot.
+Notice how none of these have the same size screen? Even if you where to look
+at two or three different phones, they would all have different screen sizes.
+
+So how do we make sure that our designs work across all of these devices,
+while still looking good? Right?! Well, we are going to use a concept called
+Responsive Web Design. Responsive Design means that our designs will "respond"
+to the size of the screen that they are given. And we do this by treating
+everything as being fluid, kind of like water in a glass.
+
+For instance if we had a table showing a list of users, instead of saying
+that it is 960px wide, we would say that it is 80% wide. So now it doesn't
+matter what screen size we have our table will fit into the space that
+it's given.
+
+So lets start small with a phone. We add in only the content that we need
+for our apps to work. We might decide that we have too many navigation
+options to show them all on the screen at once, so we pick the most important
+ones and show them to the user and put the rest into a sidebar that sits off
+the side off the screen, which can then be called in when we need it.
+
+As we increase the screen size we can start to make things a little bigger,
+and start increasing the spacing around things as we have more room to breath.
+
+Our screen gets a little bigger again and now we have enough room to show
+those navigation items, so we pull the sidebar back into the screen.
+
+And we keep going, adjusting the size and reflowing those nicely designed items.
+Every time things start to look a little strange, like the length of a line of
+text looks too long, then we add a breakpoint, adjust it and then keep going.
+
+There is a bit more to it than just, but if you are interested I'd suggest
+checking out Ethan Marcotte's book on Responsive Web Design.
+
+## Outro
+
+Cool. That's about it.
+I hope that has been helpful for you all. And it gives you some ideas on how
+to make your apps better.
+
+If you are keen to see a bit more of these things put into practise, I will be
+taking the advanced front-end class after lunch. Your more than welcome to
+come along.
+
+And if you're interested in learning even more there are a heap of books on
+these subjects. These are just some of my favourites.
 
 ## Homework
 Reading:
@@ -319,30 +363,8 @@ Reading:
 - Web form design — Luke Wroblewski
 - Atomic Design — Brad Frost (when it's finished)
 
-Actually read all the ABA books
+Actually read all the ABA books.
 
 ## Thanks
 @stewartknapman
 Lucid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-### Depth
-can help create distinction between areas and enforce hierarchy and flow
-creates interest
-keep it subtle
-flat design still has depth
-overlaying objects (foreground/middle-ground/background?)
-*/
