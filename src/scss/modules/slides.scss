@@ -6,6 +6,7 @@
   }
   & > li {
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     position: absolute;
     top: 0;
     left: 0;
@@ -30,7 +31,6 @@
 
 .slide-content {
   @include hero_block;
-  
   @media (orientation: landscape) {
     position: absolute;
     top: 50%;
@@ -38,6 +38,10 @@
     width: 100%;
     padding: 0;
     transform: translateY(-50%);
+  }
+  
+  @media (orientation: portrait) {
+    display: none;
   }
 }
 
