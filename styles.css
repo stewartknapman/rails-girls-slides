@@ -274,6 +274,7 @@ body:after {
       height: 100%; } }
   .slides > li {
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     position: absolute;
     top: 0;
     left: 0;
@@ -322,6 +323,9 @@ body:after {
       -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
               transform: translateY(-50%); } }
+  @media (orientation: portrait) {
+    .slide-content {
+      display: none; } }
 
 .slide-notes {
   padding-top: 1rem;
