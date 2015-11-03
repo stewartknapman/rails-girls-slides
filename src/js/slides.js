@@ -1,5 +1,5 @@
 var Slides = function () {
-  var slides_selector = '[data-slides] li';
+  var slides_selector = '[data-slide]';
   var slider_controls_selector = '[data-slider-control]';
   this.slides = document.querySelectorAll(slides_selector);
   this.slider_controls = document.querySelectorAll(slider_controls_selector);

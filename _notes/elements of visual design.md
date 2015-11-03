@@ -18,8 +18,9 @@ great experiences.
 ## What is Visual Design?
 
 So what is Visual Design, and why do we even care?
-Well, Visual Design is the process that we take when we create the interfaces
-that people will be using when they interact with our apps.
+Well, for us at least, Visual Design is the process that we will use when
+we create the interfaces that people will be using when they interact
+with our apps.
 
 Visual Design is the framework that allows us to create meaningful
 interactions, and to help us tell stories that connect us with the

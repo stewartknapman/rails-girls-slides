@@ -10,7 +10,7 @@
   @include list-unstyled;
   width: 100%;
   margin-bottom: 0;
-  li {
+  & > li {
     display: block;
   }
 }

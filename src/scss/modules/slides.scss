@@ -1,20 +1,59 @@
 .slides {
   position: relative;
   height: 75%;
-  border: red solid 1px;
   @media (orientation: landscape) {
     height: 100%;
   }
-  li {
+  & > li {
+    overflow: scroll;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    text-align: center;
     transform: translateX(100%);
     transition: 0.3s;
-    background: rgba(0,0,0,0.1);
-    @include hero_block;
+    @media (orientation: landscape) {
+      overflow: hidden;
+    }
+  }
+  
+  ul,
+  ol {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
 }
 
+.slide-content {
+  @include hero_block;
+  
+  @media (orientation: landscape) {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.slide-notes {
+  padding-top: $gutter_horizontal;
+  padding-left: $gutter_vertical;
+  padding-right: $gutter_vertical;
+  margin-bottom: $gutter_horizontal;
+  text-align: left;
+  border-top: $border_color solid 1px;
+  @media (orientation: landscape) {
+    display: none;
+  }
+}
+
+.slide-count {
+  color: rgba($text_color, 0.4);
+  font-style: italic;
+}
