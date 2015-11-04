@@ -326,6 +326,13 @@ body:after {
   @media (orientation: portrait) {
     .slide-content {
       display: none; } }
+  .slide-content h1 em,
+  .slide-content h2 em,
+  .slide-content h3 em,
+  .slide-content h4 em,
+  .slide-content h5 em,
+  .slide-content h6 em {
+    font-weight: 600; }
 
 .slide-notes {
   padding-top: 1rem;
