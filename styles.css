@@ -128,7 +128,7 @@ hr {
 body {
   font-size: 100%;
   line-height: 1.5;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #333;
   -webkit-transition: font-size 0.3s;
@@ -140,8 +140,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500; }
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600; }
 
 h1 {
   font-size: 2.5em;
@@ -326,13 +326,6 @@ body:after {
   @media (orientation: portrait) {
     .slide-content {
       display: none; } }
-  .slide-content h1 em,
-  .slide-content h2 em,
-  .slide-content h3 em,
-  .slide-content h4 em,
-  .slide-content h5 em,
-  .slide-content h6 em {
-    font-weight: 600; }
 
 .slide-notes {
   padding-top: 1rem;
@@ -397,4 +390,7 @@ body:after {
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
           transform: translateX(-100%); }
+
+body {
+  background-color: rgba(0, 184, 227, 0.02); }
 
