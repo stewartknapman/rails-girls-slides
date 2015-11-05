@@ -24,11 +24,25 @@ Slides.prototype.addEventListeners = function () {
   for (var i = 0; i < this.slider_controls.length; i++) {
     var slider_control = this.slider_controls[i];
     
+    // click
     slider_control.addEventListener('click', function (e) {
       e.preventDefault();
       _this.goTo(this.dataset.sliderControl);
     });
   }
+  
+  // keypress
+  document.addEventListener('keydown', function(e) {
+    var key = e.key || e.keyCode || e.which;
+    switch(key) {
+      case 37:
+        _this.goTo('prev');
+        break;
+      case 39:
+        _this.goTo('next');
+        break;
+    }
+  });
 };
 
 Slides.prototype.slide = function () {
