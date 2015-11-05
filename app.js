@@ -1,13 +1,17 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 var Slides = require('./slides.js');
-new Slides();
+
+// init the slide function when the DOM is ready
+document.addEventListener("DOMContentLoaded", function(e) {
+  new Slides();
+});
 },{"./slides.js":2}],2:[function(require,module,exports){
 var Slides = function () {
   var slides_selector = '[data-slide]';
   var slider_controls_selector = '[data-slider-control]';
+  
   this.slides = document.querySelectorAll(slides_selector);
   this.slider_controls = document.querySelectorAll(slider_controls_selector);
-  
   this.current_index = 0;
   
   this.addEventListeners();
@@ -16,6 +20,7 @@ var Slides = function () {
 
 Slides.prototype.addEventListeners = function () {
   var _this = this;
+  // Add listeners for slide control navigation
   for (var i = 0; i < this.slider_controls.length; i++) {
     var slider_control = this.slider_controls[i];
     
