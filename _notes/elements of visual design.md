@@ -231,9 +231,9 @@ a flow between different parts of our design. As we saw with typography
 something that is bigger can create a sense of being more important. This allows
 us to direct users to the parts of our applications that we want them to focus on.
 
-Making something too big can actually be the same as making some too small, when
+~~Making something too big can actually be the same as making some too small, when
 it expands from our view it is no longer visible. This can be used to create an
-interesting effect where we make a texture that blends into the background.
+interesting effect where we make a texture that blends into the background.~~
 
 Size is also very important when it comes to actionable items in your deigns.
 Make sure you have enough room for your users to click on a link or a button.
