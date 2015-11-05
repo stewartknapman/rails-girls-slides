@@ -1,9 +1,9 @@
 var Slides = function () {
   var slides_selector = '[data-slide]';
   var slider_controls_selector = '[data-slider-control]';
+  
   this.slides = document.querySelectorAll(slides_selector);
   this.slider_controls = document.querySelectorAll(slider_controls_selector);
-  
   this.current_index = 0;
   
   this.addEventListeners();
@@ -12,6 +12,7 @@ var Slides = function () {
 
 Slides.prototype.addEventListeners = function () {
   var _this = this;
+  // Add listeners for slide control navigation
   for (var i = 0; i < this.slider_controls.length; i++) {
     var slider_control = this.slider_controls[i];
     
