@@ -73,3 +73,15 @@
     }
   }
 }
+
+// icons
+.icons-block {
+  @include box;
+  font-size: 2em;
+  .mdi {
+    padding: $gutter_vertical/4;
+    &:last-child {
+      color: #FFC000;
+    }
+  }
+}
