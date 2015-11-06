@@ -1,0 +1,43 @@
+@mixin btn {
+  display: block;
+  width: 6em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: $gutter_vertical/2 $gutter_vertical;
+  font-family: $font_family_body;
+  font-weight: 600;
+  color: lighten($highlight_colour, 55%);
+  background-color: rgba($highlight_colour, 0.8);
+  border: darken($highlight_colour, 5%) solid 1px;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.1) 0 2px 2px 0;
+}
+
+.btn-wrap {
+  position: relative;
+  margin-bottom: $gutter_horizontal*2;
+  
+  .mdi {
+    position: absolute;
+    left: 55%;
+    bottom: -0.5em;
+  }
+}
+
+.btn-big {
+  @include btn;
+  font-size: 2em;
+  
+  & + .mdi {
+    left: 59%;
+    bottom: -0.26em;
+    font-size: 5em;
+    opacity: 0.3;
+    border-radius: 50%;
+  }
+}
+
+.btn-sml {
+  @include btn;
+  font-size: 0.75em;
+}
