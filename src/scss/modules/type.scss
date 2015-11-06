@@ -85,3 +85,10 @@
     }
   }
 }
+
+.homework {
+  @include box;
+  ul {
+    width: 80%;
+  }
+}
