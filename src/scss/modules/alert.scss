@@ -1,14 +1,5 @@
 @mixin alert ($color) {
-  width: 60%;
-  padding: $gutter_vertical $gutter_horizontal;
-  margin: auto;
-  margin-bottom: $gutter_horizontal;
-  font-size: 0.5em;
-  background-color: rgba(#f8f8f8, 0.6);
-  border: darken(#f8f8f8, 10%) solid 1px;
-  border-radius: 3px;
-  box-shadow: rgba(0,0,0,0.1) 0 2px 2px 0;
-  
+  @include box;
   .mdi {
     font-size: 3em;
     margin-bottom: $gutter_horizontal;

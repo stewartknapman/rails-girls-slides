@@ -1,0 +1,75 @@
+@mixin contrast {
+  @include box;
+  font-size: 0.35em;
+  text-align: left;
+}
+
+.contrast-low {
+  @include contrast;
+  h1 {
+    font-size: 1em;
+    font-weight: 300;
+  }
+  h1, p {
+    opacity: 0.3;
+  }
+}
+
+.contrast-high {
+  @include contrast;
+  h1 {
+    font-size: 4.5em;
+    font-family: 'bigfish', cursive;
+    font-weight: 400;
+    color: #000;
+  }
+  p {
+    color: magenta;
+    font-style: italic;
+  }
+}
+
+// Grid
+.grid-break {
+  @include box;
+  ul {
+    width: 100%;
+    margin: $gutter_vertical auto;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: block;
+    width: 80%;
+    padding: 0.25em 0.75em;
+    margin: 0 auto;
+    background-color: lighten($highlight_colour, 80%);
+    border: darken(#f8f8f8, 10%) solid 1px;
+    border-bottom: none;
+    &:first-child {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+    &:last-child {
+      border-bottom: darken(#f8f8f8, 10%) solid 1px;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+  }
+  .heading-item {
+    font-weight: 600;
+    color: lighten($highlight_colour, 50%);
+    background-color: darken($highlight_colour, 30%);
+    border-color: darken($highlight_colour, 40%);
+  }
+  .active-item {
+    width: 85%;
+    padding: 0.5em 1em;
+    font-weight: 600;
+    border: $highlight_colour solid 3px;
+    border-radius: 3px;
+    & + li {
+      border-top: none;
+    }
+  }
+}

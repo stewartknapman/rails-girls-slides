@@ -413,7 +413,7 @@ body:after {
 
 .btn-wrap {
   position: relative;
-  margin-bottom: 2rem; }
+  margin-bottom: 3rem; }
   .btn-wrap .mdi {
     position: absolute;
     left: 55%;
@@ -454,6 +454,89 @@ body:after {
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 2px 0;
   font-size: 0.75em; }
+
+.contrast-low {
+  width: 60%;
+  padding: 1em 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-size: 0.5em;
+  background-color: rgba(248, 248, 248, 0.6);
+  border: #dfdfdf solid 1px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 2px 0;
+  font-size: 0.35em;
+  text-align: left; }
+  .contrast-low h1 {
+    font-size: 1em;
+    font-weight: 300; }
+  .contrast-low h1, .contrast-low p {
+    opacity: 0.3; }
+
+.contrast-high {
+  width: 60%;
+  padding: 1em 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-size: 0.5em;
+  background-color: rgba(248, 248, 248, 0.6);
+  border: #dfdfdf solid 1px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 2px 0;
+  font-size: 0.35em;
+  text-align: left; }
+  .contrast-high h1 {
+    font-size: 4.5em;
+    font-family: 'bigfish', cursive;
+    font-weight: 400;
+    color: #000; }
+  .contrast-high p {
+    color: magenta;
+    font-style: italic; }
+
+.grid-break {
+  width: 60%;
+  padding: 1em 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-size: 0.5em;
+  background-color: rgba(248, 248, 248, 0.6);
+  border: #dfdfdf solid 1px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 2px 0; }
+  .grid-break ul {
+    width: 100%;
+    margin: 1em auto;
+    padding: 0;
+    list-style: none; }
+  .grid-break li {
+    display: block;
+    width: 80%;
+    padding: 0.25em 0.75em;
+    margin: 0 auto;
+    background-color: white;
+    border: #dfdfdf solid 1px;
+    border-bottom: none; }
+    .grid-break li:first-child {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px; }
+    .grid-break li:last-child {
+      border-bottom: #dfdfdf solid 1px;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px; }
+  .grid-break .heading-item {
+    font-weight: 600;
+    color: #e3faff;
+    background-color: #003c4a;
+    border-color: #001317; }
+  .grid-break .active-item {
+    width: 85%;
+    padding: 0.5em 1em;
+    font-weight: 600;
+    border: #00b8e3 solid 3px;
+    border-radius: 3px; }
+    .grid-break .active-item + li {
+      border-top: none; }
 
 .slides .active {
   -webkit-transform: translateX(0);
