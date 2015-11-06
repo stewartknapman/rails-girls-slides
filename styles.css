@@ -565,6 +565,19 @@ body:after {
     .icons-block .mdi:last-child {
       color: #FFC000; }
 
+.homework {
+  width: 60%;
+  padding: 1em 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-size: 0.5em;
+  background-color: rgba(248, 248, 248, 0.6);
+  border: #dfdfdf solid 1px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 2px 0; }
+  .homework ul {
+    width: 80%; }
+
 .slides .active {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
